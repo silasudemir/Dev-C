@@ -5,32 +5,17 @@
 
 int main() {
 	/*
-	in degiskenler, %d
+	Area and Perimeter of the Square
+	Value: One edge
+	Area: One edge*One edge
+	Perimeter: Edge * 4
 	*/
-	
-	int sayi1,sayi2,toplam,fark,carpim,bolum;
-	sayi1=50;
-	sayi2=70;
-	toplam=sayi1+sayi2;
-	fark=sayi2-sayi1;
-	carpim=sayi1*sayi2;
-	bolum=sayi2/sayi1;
-	
-	printf("Toplamlari: %d",toplam);
-	printf("\n");
-	printf("Farklari: %d",fark);
-	printf("\n");
-	printf("Carpimi: %d",carpim);
-	printf("\n");
-	printf("Bolumu: %d",bolum);
-	
-	
-	
-	
-
-	
-	
-	
+	int edge,area,perimeter;
+	edge=10;
+	area=edge*edge;
+	perimeter=edge*4;
+	printf("Area is: %d\n",area);
+	printf("Perimeter is: %d",perimeter);
 	
 	
 	return 0;
